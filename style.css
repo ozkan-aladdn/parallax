@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Merriweather", serif;
+
+}
+
+.background--image1 {
+  background-image: url(./image/image-1.jpg);
+  height: 100%;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  font-family: "Merriweather", serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgba(152, 86, 9, 0.987);
+}
+.section {
+  padding: 5rem;
+  background-color: rgb(234, 216, 196);
+}
+
+.background--image2 {
+  background-image: url(./image/image-2.jpg);
+  height: 80%;
+}
+
+.heading h2 {
+  color: rgba(152, 86, 9, 0.987);
+  background-color: rgba(234, 216, 196, 0.675);
+  padding: 2rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: 0.5rem inset rgb(211, 23, 23);
+  outline-offset: 1rem;
+}
+
+.background--image3 {
+  background-image: url(./image/image-3.jpg);
+  height: 80%;
+}
+
+.background--image4 {
+  background-image: url(./image/image-4.jpg);
+  height: 80%;
+}
+
+.background--image1,
+.background--image2,
+.background--image3,
+.background--image4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-attachment: fixed;
+  opacity: 0.8;
+
+}
