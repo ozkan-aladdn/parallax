@@ -62,15 +62,17 @@ html {
   line-height: 2;
   font-style: italic;
   font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.history{
+.history {
   background-color: #f9bd7e6e;
 }
-.benefit{
+.benefit {
   background-color: #ebdf9069;
 }
-.info{
+.info {
   background-color: #f9bd7e6e;
 }
 .section-light ul {
@@ -79,13 +81,27 @@ html {
   gap: 3rem;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
- .benefit p{
+.benefit p {
   text-align: left;
   line-height: 2;
- }
- .footer p{
+}
+.footer p {
   text-align: center;
   margin: auto;
- }
- 
+}
+
+@media screen and (max-width: 400px) {
+  .heading h1 {
+    font-size: 3rem;
+  }
+  .heading h2 {
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .section {
+    text-align: justify;
+  }
+}
