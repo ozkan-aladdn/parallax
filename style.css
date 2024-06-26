@@ -33,6 +33,7 @@ html {
   outline-offset: 1rem;
   letter-spacing: 3px;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 .background--image3 {
   background-image: url(./image/image-3.jpg);
